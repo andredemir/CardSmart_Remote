@@ -3,11 +3,15 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:karteikarten_app_new/theme_change.dart';
 import 'package:provider/provider.dart';
 import 'authorization/auth_service.dart';
+import 'firebase/firebase_options.dart' as firebase_options_1;
 import 'folder/folder_model.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 

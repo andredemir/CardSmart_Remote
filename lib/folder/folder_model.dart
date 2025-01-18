@@ -221,13 +221,8 @@ class FolderModel extends ChangeNotifier {
   Future<String?> getFilePath() async {
     String? directoryPath = await FilePicker.platform.getDirectoryPath();
 
-    if (directoryPath != null) {
-      return directoryPath;
-    } else {
-      // User canceled the picker
-      return null;
+    return directoryPath;
     }
-  }
 
   Future<void> deleteFlashcard(String userId, String folderId, String flashcardId) async {
     try {
