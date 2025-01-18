@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "317436331871",
+    "project_id": "karteinkartenapp",
+    "storage_bucket": "karteinkartenapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317436331871:android:0a6f8aa71858e1b87118ea",
+        "android_client_info": {
+          "package_name": "andre.demir.karteikartenApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317436331871-9gq82256v3blcn45va4d47fhqmehsn6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmd3SgpJooYuvrhlpAK42xdGPVX3YrroE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317436331871-9gq82256v3blcn45va4d47fhqmehsn6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317436331871:android:7cfea157a59242577118ea",
+        "android_client_info": {
+          "package_name": "com.andre.demir.karteikarten_app_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317436331871-nk2mter3duju675u3rgqnheb2uc0ckuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andre.demir.karteikarten_app_new",
+            "certificate_hash": "c1e4bcdfc560a9193e9e4d90254165e7f85f2da4"
+          }
+        },
+        {
+          "client_id": "317436331871-9gq82256v3blcn45va4d47fhqmehsn6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmd3SgpJooYuvrhlpAK42xdGPVX3YrroE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317436331871-9gq82256v3blcn45va4d47fhqmehsn6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
